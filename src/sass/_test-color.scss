@@ -1,6 +1,21 @@
 :root {
-    --title-text-color: #212121;
-    --text-color: #757575;
-    --brend-color: #2196F3;
-    --hover-color: #1dda1d;
+  --title-text-color: #212121;
+  --text-color: #757575;
+  --brend-color: #2196f3;
+  --hover-color: #1dda1d;
 }
+
+$colorMap: (
+  'main': (
+    'white': #fff,
+    'black': #000,
+  ),
+  'primaryText': (
+    'title': #212121,
+    'text': #757575,
+  ),
+  'accent': (
+    'brand': #2196f3,
+    'hover': #1dda1d,
+  ),
+);
