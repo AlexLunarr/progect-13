@@ -1,0 +1,12 @@
+.test {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+}
+.title {
+    font-size: 25px;
+    color: red;
+    &:hover {
+        color: brown;
+      }
+}
